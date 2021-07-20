@@ -1,9 +1,6 @@
 package com.example.a7minutesworkout
 
-/**
- * This is used for exercise details it is a custom model class.
- * with getter setter functions and a constructor
- */
+
 class ExerciseModel(
     private var id: Int,
     private var name: String,

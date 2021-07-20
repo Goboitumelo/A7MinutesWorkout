@@ -37,14 +37,6 @@ class FinishActivity : AppCompatActivity() {
         val dateTime = c.time // Current Date and Time of the system.
         Log.e("Date : ", "" + dateTime) // Printed in the log.
 
-        /**
-         * Here we have taken an instance of Date Formatter as it will format our
-         * selected date in the format which we pass it as an parameter and Locale.
-         * Here I have passed the format as dd MMM yyyy HH:mm:ss.
-         *
-         * The Locale : Gets the current value of the default locale for this instance
-         * of the Java Virtual Machine.
-         */
         val sdf = SimpleDateFormat("dd MMM yyyy HH:mm:ss", Locale.getDefault()) // Date Formatter
         val date = sdf.format(dateTime) // dateTime is formatted in the given format.
         Log.e("Formatted Date : ", "" + date) // Formatted date is printed in the log.

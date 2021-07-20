@@ -102,9 +102,7 @@ class BMIActivity : AppCompatActivity() {
         }
     }
 
-    /**
-     * Function is used to make visible the METRIC UNITS VIEW and hide the US UNITS VIEW.
-     */
+     // Function is used to make visible the METRIC UNITS VIEW and hide the US UNITS VIEW.
     private fun makeVisibleMetricUnitsView() {
         currentVisibleView = METRIC_UNITS_VIEW // Current View is updated here.
         llMetricUnitsView.visibility = View.VISIBLE // METRIC UNITS VIEW is Visible
@@ -119,9 +117,9 @@ class BMIActivity : AppCompatActivity() {
         tvBMIDescription.visibility = View.INVISIBLE // Result is cleared and the labels are hidden
     }
 
-    /**
-     * Function is used to make visible the US UNITS VIEW and hide the METRIC UNITS VIEW.
-     */
+
+     // Function is used to make visible the US UNITS VIEW and hide the METRIC UNITS VIEW.
+
     private fun makeVisibleUsUnitsView() {
         currentVisibleView = US_UNITS_VIEW // Current View is updated here.
         llMetricUnitsView.visibility = View.GONE // METRIC UNITS VIEW is hidden
